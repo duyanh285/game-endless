@@ -4,18 +4,52 @@ using UnityEngine;
 
 namespace DA.Endless
 {
-    public class DataStruct : MonoBehaviour
+   public enum GameTag
     {
-        // Start is called before the first frame update
-        void Start()
-        {
+        Player,
+        Block,
+        DeadZone
+    }
+    public enum GamePlayer
+    {
+        Player,
+        Block,
+        Dead
+    }
 
-        }
+    public enum ChacAnim
+    {
+        Idle,
+        Jump,
+        Land,
+        Dead
+    }
 
-        // Update is called once per frame
-        void Update()
-        {
+    public enum GamePref 
+    {
+     BestScore,
+     LevelPrefix,
+     CurPlayerId,
+     IsMusicOn,
+     IsSoundOn
+    }
 
-        }
+    public enum GameScene
+    {
+        MainMenu,
+        GamePlay
+    }
+
+    public enum MoveOirection
+    {
+        Left,
+        Right
+    }
+
+    public enum GameState
+    {
+        Starting,
+        Playing,
+        Gameover
     }
 }
