@@ -2,34 +2,37 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraFollow : MonoBehaviour
+namespace DA.Endless
 {
-    public static CameraFollow ins;
-
-    public Transform target;
-    public Vector3 offset;
-    [Range(1, 10)]
-    public float smoothFactor;
-
-    private void Awake()
+    public class CameraFollow : MonoBehaviour
     {
-        ins = this;
-    }
+        public static CameraFollow ins;
 
-    private void FixedUpdate()
-    {
-        Follow();
-    }
+        public Transform target;
+        public Vector3 offset;
+        [Range(1, 10)]
+        public float smoothFactor;
 
-    void Follow()
-    {
-        if (target == null) return;
+        private void Awake()
+        {
+            ins = this;
+        }
 
-        Vector3 targetPos = new Vector3(0, target.transform.position.y, 0f) + offset;
-        Vector3 smoothedPos = Vector3.Lerp(transform.position, targetPos, smoothFactor * Time.deltaTime);
-        transform.position = new Vector3(
-            Mathf.Clamp(smoothedPos.x, 0, smoothedPos.x),
-            Mathf.Clamp(smoothedPos.y, 0, smoothedPos.y),
-            0f);
+        private void FixedUpdate()
+        {
+            Follow();
+        }
+
+        void Follow()
+        {
+            if (target == null) return;
+
+            Vector3 targetPos = new Vector3(0, target.transform.position.y, 0f) + offset;
+            Vector3 smoothedPos = Vector3.Lerp(transform.position, targetPos, smoothFactor * Time.deltaTime);
+            transform.position = new Vector3(
+                Mathf.Clamp(smoothedPos.x, 0, smoothedPos.x),
+                Mathf.Clamp(smoothedPos.y, 0, smoothedPos.y),
+                0f);
+        }
     }
 }
