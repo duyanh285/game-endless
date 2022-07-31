@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7123675213711300106}
   - component: {fileID: 7123675213711300104}
   - component: {fileID: 7123675213711300107}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DeadZone_R
   m_TagString: DeadZone
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 7123675214307954587}
   - component: {fileID: 7123675214307954585}
   - component: {fileID: 7123675214307954584}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DeadZone_L
   m_TagString: DeadZone
   m_Icon: {fileID: 0}
@@ -170,9 +170,9 @@ GameObject:
   - component: {fileID: 7123675214458978755}
   - component: {fileID: 7123675214458978754}
   - component: {fileID: 7123675214458978753}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block
-  m_TagString: Untagged
+  m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -229,8 +229,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 227767463
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f3bf8243c28bf51479bdf77129b9054b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
