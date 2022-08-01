@@ -37,7 +37,7 @@ namespace DA.Endless
     public enum GameScene
     {
         MainMenu,
-        GamePlay
+        GamePlay1
     }
 
     public enum MoveOirection
@@ -51,5 +51,20 @@ namespace DA.Endless
         Starting,
         Playing,
         Gameover
+    }
+
+    [System.Serializable]
+    public class LevelItem
+    {
+        public int scoreRequire;
+        public Sprite unlockThumb;
+        public Sprite lockThumb;
+        public Sprite levelBG;
+        public Sprite chacPreviewImg;
+        public Player playerPb;
+        public Block blockPb;
+        public float spawnTime;
+        public float baseSpeed;
+        public float maxSpeed;
     }
 }
