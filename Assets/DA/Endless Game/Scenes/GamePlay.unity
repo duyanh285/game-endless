@@ -151,7 +151,7 @@ PrefabInstance:
     - target: {fileID: 21942186620212663, guid: a9c1549269386f04896d15374038c6fd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.01
+      value: 2.01
       objectReference: {fileID: 0}
     - target: {fileID: 21942186620212663, guid: a9c1549269386f04896d15374038c6fd,
         type: 3}
@@ -300,6 +300,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3883005944674924006, guid: 4fc3bf441c6d1a54fad79fbac1a30409,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3883005944674924007, guid: 4fc3bf441c6d1a54fad79fbac1a30409,
         type: 3}
       propertyPath: m_RootOrder
@@ -308,12 +313,12 @@ PrefabInstance:
     - target: {fileID: 3883005944674924007, guid: 4fc3bf441c6d1a54fad79fbac1a30409,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.37
       objectReference: {fileID: 0}
     - target: {fileID: 3883005944674924007, guid: 4fc3bf441c6d1a54fad79fbac1a30409,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 3883005944674924007, guid: 4fc3bf441c6d1a54fad79fbac1a30409,
         type: 3}
@@ -382,6 +387,30 @@ MonoBehaviour:
   blockCheckingRadius: 0.5
   blockCheckingOffset: 1
   landVfx: {fileID: 0}
+--- !u!1 &1071687471 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 21942186620212658, guid: a9c1549269386f04896d15374038c6fd,
+    type: 3}
+  m_PrefabInstance: {fileID: 497244292}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1071687472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071687471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 340f0325cb6448a4ab1a40f88690d238, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 3
+  moveDirection: 0
+  canMove: 1
+  blockGrap: 0
+  minScore: 0
+  maxScore: 0
 --- !u!1 &1916708610
 GameObject:
   m_ObjectHideFlags: 0

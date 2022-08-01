@@ -105,6 +105,10 @@ namespace DA.Endless
         {
             if (collision.gameObject.CompareTag(GameTag.Block.ToString()))
             {
+                Block block = collision.gameObject.GetComponent<Block>();
+                if (block)
+                    block.PlayerLand();
+
                 Debug.Log("da va cham");
             }
         }
