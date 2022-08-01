@@ -28,8 +28,8 @@ namespace DA.Endless
     public enum GamePref 
     {
      BestScore,
-     LevelPrefix,
-     CurPlayerId,
+     LevelUnlocked,
+     CurLevelId,
      IsMusicOn,
      IsSoundOn
     }
