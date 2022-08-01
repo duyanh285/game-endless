@@ -158,6 +158,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -168,6 +169,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -178,6 +180,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -188,6 +191,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -198,6 +202,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -208,6 +213,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -218,6 +224,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -228,6 +235,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -238,6 +246,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -248,6 +257,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -258,6 +268,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -268,6 +279,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -278,6 +290,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -288,6 +301,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -298,6 +312,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -308,6 +323,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -318,6 +334,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -328,6 +345,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -338,6 +356,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -348,6 +367,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -358,6 +378,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -368,6 +389,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -378,6 +400,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -388,6 +411,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -398,6 +422,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -408,6 +433,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -418,6 +444,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -428,6 +455,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -438,6 +466,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -448,6 +477,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -458,6 +488,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -468,6 +499,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -478,6 +510,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -488,6 +521,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -498,6 +532,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -508,6 +543,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -518,6 +554,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -528,6 +565,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -538,6 +576,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -548,6 +587,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -558,6 +598,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -568,6 +609,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -578,6 +620,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -588,6 +631,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -598,6 +642,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -608,6 +653,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -618,6 +664,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -628,6 +675,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -638,6 +686,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -648,6 +697,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -658,6 +708,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -668,6 +719,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -678,6 +730,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -688,6 +741,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -698,6 +752,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -708,6 +763,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -718,6 +774,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -728,6 +785,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -738,6 +796,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -748,6 +807,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -758,6 +818,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -768,6 +829,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -778,6 +840,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -788,6 +851,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -798,6 +862,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -808,6 +873,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -818,6 +884,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -828,6 +895,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -838,6 +906,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -848,6 +917,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -858,6 +928,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -868,6 +939,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -878,6 +950,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -888,6 +961,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -898,6 +972,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -908,6 +983,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -918,6 +994,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -928,6 +1005,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -938,6 +1016,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -948,6 +1027,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -958,6 +1038,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -968,6 +1049,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -978,6 +1060,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -988,6 +1071,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -998,6 +1082,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -1008,6 +1093,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -1018,6 +1104,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -1028,6 +1115,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -1038,6 +1126,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -1048,6 +1137,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -1058,6 +1148,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -1068,6 +1159,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -1078,6 +1170,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -1088,6 +1181,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -1098,6 +1192,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -1108,6 +1203,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -1118,6 +1214,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -1128,6 +1225,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -1138,6 +1236,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -1148,6 +1247,7 @@ MonoBehaviour:
     chacPreviewImg: {fileID: 0}
     playerPb: {fileID: 0}
     blockPb: {fileID: 0}
+    map: {fileID: 0}
     spawnTime: 0
     baseSpeed: 0
     maxSpeed: 0
@@ -1172,20 +1272,64 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1071687472, guid: a9c1549269386f04896d15374038c6fd, type: 3}
+      propertyPath: sprites.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1071687472, guid: a9c1549269386f04896d15374038c6fd, type: 3}
+      propertyPath: sprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 4f30d15c79b43ac4aa0768efb8398e4a,
+        type: 3}
+    - target: {fileID: 1071687472, guid: a9c1549269386f04896d15374038c6fd, type: 3}
+      propertyPath: sprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 4a0634a11876c4f40ad487948be5ca54,
+        type: 3}
+    - target: {fileID: 1071687472, guid: a9c1549269386f04896d15374038c6fd, type: 3}
+      propertyPath: sprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 072097861661adc4c9d674085c6bf88e,
+        type: 3}
+    - target: {fileID: 1071687472, guid: a9c1549269386f04896d15374038c6fd, type: 3}
+      propertyPath: sprites.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: c086981370dd888478cdffbba17c215d,
+        type: 3}
+    - target: {fileID: 1071687472, guid: a9c1549269386f04896d15374038c6fd, type: 3}
+      propertyPath: sprites.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 2a3d958e381c1ce4cae3d6b2074440e2,
+        type: 3}
+    - target: {fileID: 1071687472, guid: a9c1549269386f04896d15374038c6fd, type: 3}
+      propertyPath: sprites.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: f3ee03a33bb874f4380c5787ceb83e39,
+        type: 3}
+    - target: {fileID: 1071687472, guid: a9c1549269386f04896d15374038c6fd, type: 3}
+      propertyPath: sprites.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: 3bf03eafcc88d244890d4a81ae1ba013,
+        type: 3}
+    - target: {fileID: 1071687472, guid: a9c1549269386f04896d15374038c6fd, type: 3}
+      propertyPath: sprites.Array.data[7]
+      value: 
+      objectReference: {fileID: 21300000, guid: 331e8a144fd75144e948f84fd291d694,
+        type: 3}
+    - target: {fileID: 1071687472, guid: a9c1549269386f04896d15374038c6fd, type: 3}
+      propertyPath: sprites.Array.data[8]
+      value: 
+      objectReference: {fileID: 21300000, guid: 1aa0117b9c1294e43993b89fb3df2124,
+        type: 3}
+    - target: {fileID: 1071687472, guid: a9c1549269386f04896d15374038c6fd, type: 3}
+      propertyPath: sprites.Array.data[9]
+      value: 
+      objectReference: {fileID: 21300000, guid: a0400494ed7e1cd449fef7a558eb31ca,
+        type: 3}
     - target: {fileID: 21942186620212658, guid: a9c1549269386f04896d15374038c6fd,
         type: 3}
       propertyPath: m_Name
       value: Block
-      objectReference: {fileID: 0}
-    - target: {fileID: 21942186620212662, guid: a9c1549269386f04896d15374038c6fd,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 1.9626107
-      objectReference: {fileID: 0}
-    - target: {fileID: 21942186620212662, guid: a9c1549269386f04896d15374038c6fd,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: -0.13869476
       objectReference: {fileID: 0}
     - target: {fileID: 21942186620212663, guid: a9c1549269386f04896d15374038c6fd,
         type: 3}
@@ -1334,20 +1478,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 932295276, guid: 4fc3bf441c6d1a54fad79fbac1a30409, type: 3}
+      propertyPath: landVfx
+      value: 
+      objectReference: {fileID: 3820432491456160087, guid: c6ce055f9d841b242b9aa1fea1394f50,
+        type: 3}
     - target: {fileID: 3883005944674924005, guid: 4fc3bf441c6d1a54fad79fbac1a30409,
         type: 3}
       propertyPath: m_Name
       value: Chac_01
-      objectReference: {fileID: 0}
-    - target: {fileID: 3883005944674924005, guid: 4fc3bf441c6d1a54fad79fbac1a30409,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3883005944674924006, guid: 4fc3bf441c6d1a54fad79fbac1a30409,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3883005944674924007, guid: 4fc3bf441c6d1a54fad79fbac1a30409,
         type: 3}
@@ -1406,56 +1545,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fc3bf441c6d1a54fad79fbac1a30409, type: 3}
---- !u!1 &932295275 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3883005944674924005, guid: 4fc3bf441c6d1a54fad79fbac1a30409,
-    type: 3}
-  m_PrefabInstance: {fileID: 932295274}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &932295276
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 932295275}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e4473f23ee5a0642a7656998cce797c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpForce: 8
-  blockLayer:
-    serializedVersion: 2
-    m_Bits: 256
-  blockCheckingRadius: 0.5
-  blockCheckingOffset: 1
-  landVfx: {fileID: 0}
---- !u!1 &1071687471 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 21942186620212658, guid: a9c1549269386f04896d15374038c6fd,
-    type: 3}
-  m_PrefabInstance: {fileID: 497244292}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1071687472
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1071687471}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 340f0325cb6448a4ab1a40f88690d238, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 3
-  moveDirection: 0
-  sprites: []
-  canMove: 1
-  blockGrap: 0
-  minScore: 0
-  maxScore: 0
 --- !u!1 &1916708610
 GameObject:
   m_ObjectHideFlags: 0
