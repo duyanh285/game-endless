@@ -63,7 +63,7 @@ namespace DA.Endless
         public Sprite chacPreviewImg;
         public Player playerPb;
         public Block blockPb;
-        public GameObject map;
+        public GameObject mapPb;
         public float spawnTime;
         public float baseSpeed;
         public float maxSpeed;
