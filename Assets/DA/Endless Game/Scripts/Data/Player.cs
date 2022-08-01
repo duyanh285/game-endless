@@ -100,5 +100,21 @@ namespace DA.Endless
             m_anim.SetBool(ChacAnim.Land.ToString(), false);
             m_anim.SetTrigger(ChacAnim.Idle.ToString());
         }
+
+        private void OnCollisionEnter2D(Collision2D collision)
+        {
+            if (collision.gameObject.CompareTag(GameTag.Block.ToString()))
+            {
+                Debug.Log("da va cham");
+            }
+        }
+
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            if (collision.CompareTag(GameTag.DeadZone.ToString()))
+            {
+                Debug.Log("Da va cham vao vung chet");
+            }
+        }
     }
 }
