@@ -295,6 +295,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chac_01
       objectReference: {fileID: 0}
+    - target: {fileID: 3883005944674924005, guid: 4fc3bf441c6d1a54fad79fbac1a30409,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3883005944674924007, guid: 4fc3bf441c6d1a54fad79fbac1a30409,
         type: 3}
       propertyPath: m_RootOrder
@@ -370,10 +375,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e4473f23ee5a0642a7656998cce797c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 0
+  jumpForce: 8
   blockLayer:
     serializedVersion: 2
     m_Bits: 256
   blockCheckingRadius: 0.5
-  blockCheckingOffset: 1.56
+  blockCheckingOffset: 1
   landVfx: {fileID: 0}
+--- !u!1 &1916708610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1916708612}
+  - component: {fileID: 1916708611}
+  m_Layer: 0
+  m_Name: GamepadController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1916708611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916708610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57c5013f84cf0164dabe64d8f35b6925, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOnMobile: 0
+--- !u!4 &1916708612
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916708610}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.23790066, y: -0.5355528, z: -1.2801673}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
