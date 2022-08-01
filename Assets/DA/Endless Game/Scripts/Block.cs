@@ -9,6 +9,7 @@ namespace DA.Endless
     {
         public float moveSpeed;
         public MoveDirection moveDirection;
+        public Sprite[] sprites;
         public bool canMove;
         public float blockGrap;
         public int minScore;
@@ -45,7 +46,17 @@ namespace DA.Endless
 
         public bool IsComponentsNull()
         {
-            return m_rb == null || m_sp == null;
+            bool checking = m_rb == null || m_sp == null;
+            if (checking)
+                Debug.LogError("Some component is null . please check!!!");
+            return checking;
+        }
+
+        public void ChangeSprite(ref int idx)
+        {
+            if (sprites == null || sprites.Length <= 0 || IsComponentsNull()) return;
+
+            m_sp.sprite = sprites[idx];
         }
 
         private void BlockMoving()
@@ -84,7 +95,6 @@ namespace DA.Endless
         {
             if (IsComponentsNull()) return;
             m_sp.sortingOrder = prevBlockSp.sortingOrder + 1;
-
 
         }
     }

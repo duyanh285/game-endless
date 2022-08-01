@@ -60,7 +60,10 @@ namespace DA.Endless
 
         public bool IsComponentsNull()
         {
-            return m_rb == null || m_anim == null;
+            bool checking = m_rb == null || m_anim == null;
+            if (checking)
+                Debug.LogError("Some component is null . please check!!!");
+            return checking;
         }
 
         private void IsOnBlock()
