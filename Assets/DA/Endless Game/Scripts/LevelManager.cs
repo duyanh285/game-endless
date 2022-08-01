@@ -35,16 +35,33 @@ namespace DA.Endless
                 var level = levels[i];
 
                 if (level == null) continue;
+
+                string levelDataKey = GamePref.LevelUnlocked.ToString() + i;
+
                 if(i==0)
                 {
+                    Pref.SetLevelUnlocked(i, true);
                     //khoa level dau tien
                 }
                 else
                 {
+                    if (!PlayerPrefs.HasKey(levelDataKey))
+                    {
+                        Pref.SetLevelUnlocked(i, false);
+                    }
                     //neu du lieu chua duoc luu xuong may nguoi choi
                     //thi se luu du lieu (khoa cac level khac lai)
                 }    
             }
+        }
+
+        public LevelItem GetLevel()
+        {
+            if(levels!=null && levels.Length > 0)
+            {
+                return levels[Pref.CurLevelId];
+            }
+            return null;
         }
         public void MakeSingleton()
         {
