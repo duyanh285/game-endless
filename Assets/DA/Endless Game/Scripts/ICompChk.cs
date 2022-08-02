@@ -7,5 +7,5 @@ namespace DA.Endless
     public interface ICompChk
     {
         bool IsComponentsNull();
-}
+    }
 }
