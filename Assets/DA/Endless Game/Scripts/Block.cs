@@ -57,6 +57,11 @@ namespace DA.Endless
             if (sprites == null || sprites.Length <= 0 || IsComponentsNull()) return;
 
             m_sp.sprite = sprites[idx];
+
+            idx++;
+
+            if (idx >= sprites.Length)
+                idx = 0;
         }
 
         private void BlockMoving()

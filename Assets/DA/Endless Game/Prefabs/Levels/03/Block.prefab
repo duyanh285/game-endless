@@ -239,7 +239,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: b7ce24c97ff02a044b4b5d82b9642eec, type: 3}
   - {fileID: 21300000, guid: 69b7b727760f77b4bb3f37e7d905531d, type: 3}
   canMove: 0
-  blockGrap: 0
+  blockGrap: 1
   minScore: 0
   maxScore: 0
 --- !u!1 &877037041030627610

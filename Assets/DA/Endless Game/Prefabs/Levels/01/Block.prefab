@@ -305,8 +305,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 3
   moveDirection: 0
-  sprites: []
+  sprites:
+  - {fileID: 21300000, guid: 4f30d15c79b43ac4aa0768efb8398e4a, type: 3}
+  - {fileID: 21300000, guid: 4a0634a11876c4f40ad487948be5ca54, type: 3}
+  - {fileID: 21300000, guid: 072097861661adc4c9d674085c6bf88e, type: 3}
+  - {fileID: 21300000, guid: c086981370dd888478cdffbba17c215d, type: 3}
+  - {fileID: 21300000, guid: 2a3d958e381c1ce4cae3d6b2074440e2, type: 3}
+  - {fileID: 21300000, guid: f3ee03a33bb874f4380c5787ceb83e39, type: 3}
+  - {fileID: 21300000, guid: 3bf03eafcc88d244890d4a81ae1ba013, type: 3}
+  - {fileID: 21300000, guid: 331e8a144fd75144e948f84fd291d694, type: 3}
+  - {fileID: 21300000, guid: 1aa0117b9c1294e43993b89fb3df2124, type: 3}
+  - {fileID: 21300000, guid: a0400494ed7e1cd449fef7a558eb31ca, type: 3}
   canMove: 0
-  blockGrap: 0
+  blockGrap: 1.05
   minScore: 0
   maxScore: 0
