@@ -137,6 +137,29 @@ namespace DA.Endless
             }
         }
 
+        public void PlayGame()
+        {
+            if (IsComponentsNull()) return;
+            state = GameState.Playing;
+
+            StartCoroutine(SpawnBlockCo());
+        }
+
+        public void Gameover()
+        {
+            if (IsComponentsNull()) return;
+            state = GameState.Gameover;
+            Debug.Log("GameOver!!!");
+        }
+
+        public void AddScore(int score)
+        {
+            if (IsComponentsNull() || state != GameState.Playing) return;
+
+            m_score += score;
+            Pref.bestScore = m_score;
+        }
+
         public bool IsComponentsNull()
         {
             bool checking = LevelManager.Ins == null;

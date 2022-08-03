@@ -10,7 +10,7 @@ namespace DA.Endless
         public LayerMask blockLayer;
         public float blockCheckingRadius;
         public float blockCheckingOffset;
-        public GameObject landVfx;
+        public GameObject landVfxPb;
 
 
         private Rigidbody2D m_rb;
@@ -37,6 +37,8 @@ namespace DA.Endless
         void Update()
         {
             if (m_isDead || IsComponentsNull()) return;
+            transform.position = new Vector3(0, transform.position.y, 0f);
+
             Jump();
 
             if (m_rb.velocity.y < 0)
@@ -63,6 +65,7 @@ namespace DA.Endless
             bool checking = m_rb == null || m_anim == null;
             if (checking)
                 Debug.LogError("Some component is null . please check!!!");
+
             return checking;
         }
 
@@ -109,18 +112,35 @@ namespace DA.Endless
             if (collision.gameObject.CompareTag(GameTag.Block.ToString()))
             {
                 Block block = collision.gameObject.GetComponent<Block>();
-                if (block)
+                if (block && block.Id != m_blockId)//ADD SCORE DUY NHAT 1 LAN
+                {
+                    m_blockId = block.Id;
+                    GameManager.Ins.AddScore(block.CurScore);
                     block.PlayerLand();
+                }
+                if (collision != null && collision.contactCount > 0 && landVfxPb)
+                {
+                    Vector3 spawnPos = new Vector3(transform.position.x,
+                        collision.contacts[0].point.y, 0f);
 
-                Debug.Log("da va cham");
+                    Instantiate(landVfxPb, spawnPos, Quaternion.identity);
+                    
+                }
+                    Debug.Log("da va cham");
             }
         }
 
         private void OnTriggerEnter2D(Collider2D collision)
         {
-            if (collision.CompareTag(GameTag.DeadZone.ToString()))
+            if (collision.CompareTag(GameTag.DeadZone.ToString()) && !m_isDead)
             {
+                if (IsComponentsNull()) return;
+                m_isDead = true;
+                m_anim.SetTrigger(ChacAnim.Dead.ToString());
+                gameObject.layer = LayerMask.NameToLayer(GamePlayer.Dead.ToString());
                 Debug.Log("Da va cham vao vung chet");
+                GameManager.Ins.Gameover();
+
             }
         }
     }

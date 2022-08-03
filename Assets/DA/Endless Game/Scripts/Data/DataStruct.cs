@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace DA.Endless
 {
-   public enum GameTag
+    public enum GameTag
     {
         Player,
         Block,
@@ -25,13 +25,13 @@ namespace DA.Endless
         Dead
     }
 
-    public enum GamePref 
+    public enum GamePref
     {
-     BestScore,
-     LevelUnlocked,
-     CurLevelId,
-     IsMusicOn,
-     IsSoundOn
+        BestScore,
+        LevelUnlocked,
+        CurLevelId,
+        IsMusicOn,
+        IsSoundOn
     }
 
     public enum GameScene

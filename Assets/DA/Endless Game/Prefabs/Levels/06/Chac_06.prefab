@@ -163,10 +163,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e4473f23ee5a0642a7656998cce797c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 8
+  jumpForce: 9
   blockLayer:
     serializedVersion: 2
     m_Bits: 256
   blockCheckingRadius: 0.5
   blockCheckingOffset: 1
-  landVfx: {fileID: 8905994537766971594, guid: 389aa9f92c2eaa34ab79b2442d21fb65, type: 3}
+  landVfxPb: {fileID: 8905994537766971594, guid: 389aa9f92c2eaa34ab79b2442d21fb65,
+    type: 3}
