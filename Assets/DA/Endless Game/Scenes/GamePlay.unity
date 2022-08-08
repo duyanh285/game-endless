@@ -320,7 +320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   offset: {x: 0, y: 0, z: 0}
-  smoothFactor: 3.63
+  smoothFactor: 3.64
 --- !u!4 &511877347
 Transform:
   m_ObjectHideFlags: 0
