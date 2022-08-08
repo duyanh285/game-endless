@@ -6,16 +6,16 @@ namespace DA.Endless
 {
     public class CameraFollow : MonoBehaviour
     {
-        public static CameraFollow ins;
+        public static CameraFollow Ins;
 
-        public Transform target;
-        public Vector3 offset;
+        public Transform target;//muc tieu camera di chuyen theo
+        public Vector3 offset;//dieu chinh khoang cach 
         [Range(1, 10)]
         public float smoothFactor;
 
         private void Awake()
         {
-            ins = this;
+            Ins = this;
         }
 
         private void FixedUpdate()

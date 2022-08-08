@@ -73,7 +73,11 @@ namespace DA.Endless
                 var newPlayerPb = m_curLevel.playerPb;
                 if (newPlayerPb)
                     m_curPlayer = Instantiate(newPlayerPb, new Vector3(0, -1f, 0), Quaternion.identity);
+
+                if (m_curPlayer)
+                    CameraFollow.Ins.target = m_curPlayer.transform;
             }
+
         }
 
         IEnumerator SpawnBlockCo()
