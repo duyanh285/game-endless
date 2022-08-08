@@ -134,7 +134,7 @@ namespace DA.Endless
         {
             if (collision.CompareTag(GameTag.DeadZone.ToString()) && !m_isDead)
             {
-                if (IsComponentsNull()) return;
+                //if (IsComponentsNull()) return;
                 m_isDead = true;
                 m_anim.SetTrigger(ChacAnim.Dead.ToString());
                 gameObject.layer = LayerMask.NameToLayer(GamePlayer.Dead.ToString());

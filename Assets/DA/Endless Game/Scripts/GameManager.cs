@@ -45,6 +45,7 @@ namespace DA.Endless
             m_camSize = Helper.Get2DCamSize();
             m_blockSpawnPosY = -m_camSize.y / 2 + 1f;
             m_curLevel = LevelManager.Ins.GetLevel();
+            m_blockIdx = 1;
             Pref.hasBestScore = false;
             if (m_curLevel != null)
             {
