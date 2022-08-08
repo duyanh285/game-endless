@@ -154,6 +154,7 @@ namespace DA.Endless
         {
             if (IsComponentsNull()) return;
             state = GameState.Gameover;
+            CamShake.ins.ShakeTrigger();
             Debug.Log("GameOver!!!");
         }
 
