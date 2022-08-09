@@ -82,7 +82,7 @@ namespace DA.Endless
         private void OnDrawGizmos()
         {
             m_centerPos = new Vector3(transform.position.x,
-             transform.position.y - blockCheckingOffset, transform.position.z);
+            transform.position.y - blockCheckingOffset, transform.position.z);
             Gizmos.color = Color.green;
             Gizmos.DrawSphere(m_centerPos, blockCheckingRadius);
         }
@@ -124,9 +124,8 @@ namespace DA.Endless
                         collision.contacts[0].point.y, 0f);
 
                     Instantiate(landVfxPb, spawnPos, Quaternion.identity);
-                    
                 }
-                    Debug.Log("da va cham");
+                Debug.Log("da va cham block ");
             }
         }
 

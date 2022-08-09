@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace DA.Endless
 {
-    public class LevelManager : MonoBehaviour,ISingleton
+    public class LevelManager : MonoBehaviour, ISingleton
     {
         public static LevelManager Ins;
         public LevelItem[] levels;
@@ -38,7 +38,7 @@ namespace DA.Endless
 
                 string levelDataKey = GamePref.LevelUnlocked.ToString() + i;
 
-                if(i==0)
+                if (i == 0)
                 {
                     Pref.SetLevelUnlocked(i, true);
                     //khoa level dau tien
@@ -51,13 +51,13 @@ namespace DA.Endless
                     }
                     //neu du lieu chua duoc luu xuong may nguoi choi
                     //thi se luu du lieu (khoa cac level khac lai)
-                }    
+                }
             }
         }
 
         public LevelItem GetLevel()
         {
-            if(levels!=null && levels.Length > 0)
+            if (levels != null && levels.Length > 0)
             {
                 return levels[Pref.CurLevelId];
             }
@@ -72,6 +72,7 @@ namespace DA.Endless
             }
             else
                 Destroy(gameObject);
+            Debug.Log("xoa");
         }
     }
 }

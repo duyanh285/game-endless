@@ -88,8 +88,6 @@ namespace DA.Endless
 
             var blockPrefab = m_curLevel.blockPb;
 
-           
-
             if (blockPrefab == null)
                 yield return null;
 
@@ -103,7 +101,8 @@ namespace DA.Endless
                 float checking = Random.Range(0f, 1f);
                 SpriteRenderer prevBlockSp = m_curBlock.Sp;
                 GameObject warningSingClone = null;
-                if (checking <= 0.5f)
+
+                if (checking <= 0.5f)//hinh bao nguy hiem
                 {
                     Vector3 spawnPos = new Vector3(m_camSize.x / 2 - 0.4f, m_blockSpawnPosY, 0f);
                     warningSingClone = Instantiate(warningSignPb, spawnPos, Quaternion.identity);
@@ -161,6 +160,7 @@ namespace DA.Endless
         public void AddScore(int score)
         {
             if (IsComponentsNull() || state != GameState.Playing) return;
+        
 
             m_score += score;
             Pref.bestScore = m_score;
