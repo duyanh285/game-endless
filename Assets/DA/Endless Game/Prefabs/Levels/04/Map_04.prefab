@@ -225,8 +225,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8301030682717829428}
-  - {fileID: 8711858417896587166}
-  - {fileID: 8301030682563965504}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -257,10 +255,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8301030682563965505}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -7.68, z: 0}
+  m_LocalPosition: {x: 0.07, y: -7.56, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 8301030682555039661}
+  m_Father: {fileID: 8301030682717829428}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8301030682563965507
@@ -326,7 +324,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -2.6450462}
+  m_Offset: {x: 0, y: -2.6216898}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -337,7 +335,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 12.08, y: 1.6190882}
+  m_Size: {x: 12.08, y: 1.665801}
   m_EdgeRadius: 0
 --- !u!114 &2678089257330328816
 MonoBehaviour:
@@ -463,6 +461,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8301030682200474367}
+  - {fileID: 8711858417896587166}
+  - {fileID: 8301030682563965504}
   m_Father: {fileID: 8301030682555039661}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -714,7 +714,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 8301030682555039661}
+    m_TransformParent: {fileID: 8301030682717829428}
     m_Modifications:
     - target: {fileID: 852748775379298076, guid: 9e2bb0b2e376b0443ba07517963b7dc3,
         type: 3}
@@ -749,7 +749,7 @@ PrefabInstance:
     - target: {fileID: 852748775379298079, guid: 9e2bb0b2e376b0443ba07517963b7dc3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.78
+      value: 4.63
       objectReference: {fileID: 0}
     - target: {fileID: 852748775379298079, guid: 9e2bb0b2e376b0443ba07517963b7dc3,
         type: 3}

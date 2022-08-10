@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace DA.Endless
 {
-    public class CamShake : MonoBehaviour
+    public class CamShake : MonoBehaviour// rung man hinh
     {
         public static CamShake ins;
 

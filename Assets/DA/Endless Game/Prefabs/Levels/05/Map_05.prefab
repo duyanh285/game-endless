@@ -30,8 +30,8 @@ Transform:
   m_LocalPosition: {x: 0, y: -8.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 8932587316724808207}
-  m_RootOrder: 1
+  m_Father: {fileID: 8932587315646507801}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8932587315124098149
 SpriteRenderer:
@@ -96,7 +96,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1.8654518}
+  m_Offset: {x: 0, y: -1.972434}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -107,7 +107,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 12.08, y: 1.7151318}
+  m_Size: {x: 12.08, y: 1.5011673}
   m_EdgeRadius: 0
 --- !u!114 &9155120602896298365
 MonoBehaviour:
@@ -150,7 +150,9 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 8932587315124098138}
+  - {fileID: 4163540555422579703}
   m_Father: {fileID: 8932587316724808207}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -263,8 +265,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8932587315646507801}
-  - {fileID: 8932587315124098138}
-  - {fileID: 4163540555422579703}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -273,7 +273,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 8932587316724808207}
+    m_TransformParent: {fileID: 8932587315646507801}
     m_Modifications:
     - target: {fileID: 2024406504248615119, guid: 9cd0a65c73bf1c340991cb6e8f96aec8,
         type: 3}
@@ -293,7 +293,7 @@ PrefabInstance:
     - target: {fileID: 4769649303697426808, guid: 9cd0a65c73bf1c340991cb6e8f96aec8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4769649303697426808, guid: 9cd0a65c73bf1c340991cb6e8f96aec8,
         type: 3}
@@ -308,7 +308,7 @@ PrefabInstance:
     - target: {fileID: 4769649303697426808, guid: 9cd0a65c73bf1c340991cb6e8f96aec8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4769649303697426808, guid: 9cd0a65c73bf1c340991cb6e8f96aec8,
         type: 3}

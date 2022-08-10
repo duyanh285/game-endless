@@ -118,6 +118,7 @@ namespace DA.Endless
                     GameManager.Ins.AddScore(block.CurScore);
                     block.PlayerLand();
                 }
+
                 if (collision != null && collision.contactCount > 0 && landVfxPb)
                 {
                     Vector3 spawnPos = new Vector3(transform.position.x,
@@ -139,7 +140,6 @@ namespace DA.Endless
                 gameObject.layer = LayerMask.NameToLayer(GamePlayer.Dead.ToString());
                 Debug.Log("Da va cham vao vung chet");
                 GameManager.Ins.Gameover();
-
             }
         }
     }

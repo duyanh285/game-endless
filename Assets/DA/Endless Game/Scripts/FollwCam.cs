@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace DA.Endless
 {
-    public class FollwCam : MonoBehaviour
+    public class FollwCam : MonoBehaviour//camera hinh di chuyen theo
     {
         private Camera m_cam;
 

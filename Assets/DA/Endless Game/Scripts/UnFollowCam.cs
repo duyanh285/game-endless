@@ -6,7 +6,7 @@ namespace DA.Endless
 {
     public class UnFollowCam : MonoBehaviour
     {
-        private Vector3 m_startingPos;
+        private Vector3 m_startingPos;//rao chan voi nen ko di chuyen theo 
 
         private void Awake()
         {
