@@ -215,7 +215,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &61442621
 RectTransform:
   m_ObjectHideFlags: 0
@@ -964,6 +964,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   titleText: {fileID: 0}
   contentText: {fileID: 0}
+  socreTxt: {fileID: 443285695}
+  bestScoreTxt: {fileID: 726968358}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1383,7 +1385,7 @@ GameObject:
   - component: {fileID: 726968359}
   - component: {fileID: 726968358}
   m_Layer: 5
-  m_Name: Text
+  m_Name: BeastcoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1529,7 +1531,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 807068898}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 512957581}
+        m_MethodName: Replay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &807068898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2561,7 +2574,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2326875861446284504}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 512957581}
+        m_MethodName: BackHome
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!224 &2326875861446284506
 RectTransform:
   m_ObjectHideFlags: 0
