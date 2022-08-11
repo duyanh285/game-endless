@@ -31,7 +31,7 @@ namespace DA.Endless
             if (bestScoreTxt)
                 bestScoreTxt.text = $"TOP SCORE: {Pref.bestScore}";
 
-           Pref.bestScore = 1500;
+           Pref.bestScore = 3000;
 
             UpdateUI();
         }
