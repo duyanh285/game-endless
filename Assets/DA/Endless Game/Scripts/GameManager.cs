@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 namespace DA.Endless
 {
@@ -34,7 +35,7 @@ namespace DA.Endless
         {
             Init();
 
-            StartCoroutine(SpawnBlockCo());
+            // StartCoroutine(SpawnBlockCo());
         }
 
         public void Init()
@@ -59,7 +60,11 @@ namespace DA.Endless
             }
 
             ActivePlayer();
+
+            GUIManager.Ins.ShowGameGUI(false);
         }
+
+
 
         public void ActivePlayer()
         {
@@ -144,9 +149,12 @@ namespace DA.Endless
         public void PlayGame()
         {
             if (IsComponentsNull()) return;
+
             state = GameState.Playing;
 
-            StartCoroutine(SpawnBlockCo());
+           StartCoroutine(SpawnBlockCo());
+
+            GUIManager.Ins.ShowGameGUI(true);
         }
 
         public void Gameover()
@@ -154,24 +162,27 @@ namespace DA.Endless
             if (IsComponentsNull()) return;
             state = GameState.Gameover;
             CamShake.ins.ShakeTrigger();
+
+            GUIManager.Ins.ShowGameoverImgTxt();
             Debug.Log("GameOver!!!");
         }
 
         public void AddScore(int score)
         {
             if (IsComponentsNull() || state != GameState.Playing) return;
-        
+
 
             m_score += score;
             Pref.bestScore = m_score;
+            GUIManager.Ins.UpdateScore(m_score);
         }
 
         public bool IsComponentsNull()
         {
-            bool checking = LevelManager.Ins == null;
+            bool checking = LevelManager.Ins == null || GUIManager.Ins == null;
 
             if (checking)
-                Debug.LogError("Some component is null . please check!!!");
+                Debug.LogError("Some component is null . please check!!!.");
 
             return checking;
         }
