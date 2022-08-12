@@ -99,6 +99,9 @@ namespace DA.Endless
 
             m_anim.SetBool(ChacAnim.Land.ToString(), false);
 
+            AudioController.ins.PlaySound(AudioController.ins.jump);
+
+
         }
 
         public void BackToIdle()
@@ -126,6 +129,9 @@ namespace DA.Endless
 
                     Instantiate(landVfxPb, spawnPos, Quaternion.identity);
                 }
+
+                AudioController.ins.PlaySound(AudioController.ins.land);
+
                 Debug.Log("da va cham block ");
             }
         }
@@ -140,6 +146,7 @@ namespace DA.Endless
                 gameObject.layer = LayerMask.NameToLayer(GamePlayer.Dead.ToString());
                 Debug.Log("Da va cham vao vung chet");
                 GameManager.Ins.Gameover();
+                
             }
         }
     }

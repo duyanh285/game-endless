@@ -23,6 +23,7 @@ namespace DA.Endless
         public AudioClip[] menus;
         public AudioClip btnClick;
         public AudioClip jump;
+        public AudioClip land;
         public AudioClip score;
         public AudioClip bestScore;
         public AudioClip gameover;

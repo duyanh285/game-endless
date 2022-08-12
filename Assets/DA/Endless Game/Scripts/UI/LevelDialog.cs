@@ -31,7 +31,7 @@ namespace DA.Endless
             if (bestScoreTxt)
                 bestScoreTxt.text = $"TOP SCORE: {Pref.bestScore}";
 
-           Pref.bestScore = 3000;
+          // Pref.bestScore = 3000;
 
             UpdateUI();
         }
@@ -86,6 +86,9 @@ namespace DA.Endless
                 // UpdateUI();
 
                 SceneManager.LoadScene(GameScene.GamePlay1.ToString());
+
+                AudioController.ins.StopPlayMusic();
+
             }
         }
     }

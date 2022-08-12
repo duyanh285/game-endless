@@ -155,6 +155,8 @@ namespace DA.Endless
            StartCoroutine(SpawnBlockCo());
 
             GUIManager.Ins.ShowGameGUI(true);
+
+            AudioController.ins.PlayBackgroundMusic();
         }
 
         public void Gameover()
@@ -164,7 +166,10 @@ namespace DA.Endless
             CamShake.ins.ShakeTrigger();
 
             GUIManager.Ins.ShowGameoverImgTxt();
+            AudioController.ins.StopPlayMusic();
+            AudioController.ins.PlaySound(AudioController.ins.gameover);
             Debug.Log("GameOver!!!");
+
         }
 
         public void AddScore(int score)
@@ -175,6 +180,7 @@ namespace DA.Endless
             m_score += score;
             Pref.bestScore = m_score;
             GUIManager.Ins.UpdateScore(m_score);
+            AudioController.ins.PlaySound(AudioController.ins.score);
         }
 
         public bool IsComponentsNull()

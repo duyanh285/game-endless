@@ -215,7 +215,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &61442621
 RectTransform:
   m_ObjectHideFlags: 0
@@ -540,7 +540,7 @@ MonoBehaviour:
   homeGUI: {fileID: 61442620}
   gameGUI: {fileID: 223856158}
   gameoverDialog: {fileID: 512957581}
-  scoreCountingTxt: {fileID: 443285695}
+  scoreCountingTxt: {fileID: 1272416639}
   gameoverImgTxt: {fileID: 105630430}
 --- !u!4 &301673765
 Transform:

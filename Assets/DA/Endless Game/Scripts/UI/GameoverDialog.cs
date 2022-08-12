@@ -24,6 +24,9 @@ namespace DA.Endless
             {
                 if (bestScoreTxt)
                     bestScoreTxt.text = $"NEW BEST:{Pref.bestScore}";
+
+                AudioController.ins.PlaySound(AudioController.ins.bestScore);
+
             }
             else
             {

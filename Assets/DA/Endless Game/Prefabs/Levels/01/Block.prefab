@@ -318,5 +318,5 @@ MonoBehaviour:
   - {fileID: 21300000, guid: a0400494ed7e1cd449fef7a558eb31ca, type: 3}
   canMove: 0
   blockGrap: 1.05
-  minScore: 0
-  maxScore: 0
+  minScore: 2
+  maxScore: 6
